@@ -14,6 +14,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
+    object-fit: cover;
 }
 
 a {
@@ -27,17 +28,15 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
-
-   display: block;
-border-radius: 4px;
-padding: 16px 32px;
-min-width: 169px;
-height: 56px;
-
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #4d5ae5;
-border: none;
-margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    border: none;
+    margin: 0 auto;
 }
 .btn:hover, .btn:focus {
     background: #404bbf;
@@ -200,6 +199,35 @@ p {
     color: #2e2f42;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/* full*/
+.advant-container {
+    
+} 
+
+.advant-list {
+    display: flex;
+    gap: 24px;
+}
+
+.advant-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: calc((100% - 24px) / 4);
+}
 
 
 /* section three */
@@ -207,14 +235,60 @@ p {
     background: #f4f4fd;
 }
 
+.titlesecond {
+    padding-bottom: 72px;
+}
 
+.team-list {
+    display: flex;
+    gap: 24px; 
 
-/*.teamlist {
+}
 
-}*/
-
-.teamlist-item {
+.team-list-item {
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    padding: 0px 0px 32px 0px;
+    text-align: center;
+
+}
+
+.team-title {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.team-text {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* section four */
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px; 
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.pf-title {
+    padding-top: 32px;
+    padding-left: 16px;
+}
+
+.pf-text {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+
 }
 
 /* footer */
@@ -223,7 +297,19 @@ p {
     background: #2e2f42;
 }
 
-.foot-logo, .foot-p {
+.foot-logo, .foot-text {
     color: #f4f4fd;
+}
+
+.foot-container {
+    padding-top: 100px;
+    max-width: 264px;
+    
+    
+}
+
+.foot-text {
+    padding-top: 8px;
+    padding-bottom: 100px;
 }
 
