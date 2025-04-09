@@ -99,6 +99,7 @@ p {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;  
+    
     }
 
 .section {
@@ -115,8 +116,8 @@ p {
 .head-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
+    
 }
 
 .head-nav {
@@ -156,6 +157,7 @@ p {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
