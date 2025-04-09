@@ -21,7 +21,6 @@ a {
     text-decoration: none;}
 
 .btn {
-    background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -95,7 +94,6 @@ p {
     font-style: normal;
     
 }
-
 
 .container { 
     max-width: 1158px;
@@ -210,12 +208,12 @@ p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 /* full*/
-.advant-container {
+/*.advant-container {
     
-} 
+}*/
 
 .advant-list {
     display: flex;
@@ -295,21 +293,24 @@ p {
 
 .footer {
     background: #2e2f42;
+    
 }
 
-.foot-logo, .foot-text {
+.foot-logo-part, .foot-text {
     color: #f4f4fd;
 }
 
 .foot-container {
-    padding-top: 100px;
-    max-width: 264px;
-    
-    
+    padding: 100px 0;
+    display: block;
 }
 
 .foot-text {
-    padding-top: 8px;
-    padding-bottom: 100px;
+    text-align: justify;
+    max-width: 264px;
 }
 
+.foot-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
