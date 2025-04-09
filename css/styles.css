@@ -196,7 +196,7 @@ p {
 .advanttitle {
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    
 }
 
 .visually-hidden {
@@ -216,6 +216,9 @@ p {
 /*.advant-container {
     
 }*/
+.advant-name {
+    margin-bottom: 8px;
+}
 
 .advant-list {
     display: flex;
